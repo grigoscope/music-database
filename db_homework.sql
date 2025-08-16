@@ -1,7 +1,8 @@
+-- Active: 1754636841634@@127.0.0.1@5432@postgres@public
 -- Genres
 CREATE TABLE IF NOT EXISTS genres (
     genre_id 		SERIAL 			PRIMARY KEY,
-    name			VARCHAR (60)	NOT NULL
+    name            VARCHAR (60)	NOT NULL
 );
 
 -- Artists
